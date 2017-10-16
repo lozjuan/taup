@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<?php require_once 'tools/home_header.php' ?>
+<body>
+    <section class="welcome">
+        <header class="head navbar-homepage fixed-top" role="banner">
+            <div class="container-fluid">
+                <a href="index.php" class="home"><h4>T.A.U.P</h4>
+                    <p>Territoire Urbanisme Architecture & Patrimoine</p>
+                </a>
+                <button type="button" class="menu-bar hidden-md-up" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <nav id="main-menu" class="collapse">
+                    <ul>
+                        <li><a data-scroll href="#projects">Projets</a></li>
+                        <li><a href="rd.php">R.&. D.</a></li>
+                        <li><a data-scroll href="#summary">Sur...</a></li>
+                        <li><a data-scroll href="contact.php">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="site-title text-center">
+            <div class="container">
+                <div class="card">
+                    <h1 class="display-4 wow bounceIn">Territoire Urbanisme Architecture & Patrimoine</h1>
+                    <p class="wow bounceIn" data-wow-delay=".3s">Conseil et accompagnement dans l'aménagement de votre espace</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container py-2">
+            <div class="agency">
+                <p>T.A.U.P est une SASU créée par un Professional souhaitant associer des compétences complémentaires pour élargir son champ de compétence et son champ d'action dans l'aménagement du territoire.</p>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="images/logo.svg" alt="">
+                    <h4><b>SERVICES</b></h4>
+                    <p><b>T.A.U.P</b> est accompagnée du dispositif de soutien à la création et développement d’entreprises ECHELLE-UN. Elle souhaite servir à l'articulation entre la ville et le territoire grâce à une lecture transversale tout en participant activement à la constante transformation de notre territoire. Avec la nouvelle disposition légale visant à redonner une qualité architecturale et paysagère aux zones de lotissement (Loi Cap), TAUP fait les études de faisabilité, pre opérationnelles et instruit le permis d'aménager. En se rapprochant des professionnels de l'aménagement et de la construction, TAUP souhaite intégrer des équipes pluridisciplinaires et créer une synergie afin de concentrer les efforts dans le l'acte de réfléchir la ville de demain.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <img src="images/rd_icon.svg" alt="">
+                    <h4><b>R&D</b></h4>
+                    <p><b>L'activité de l'agence se tourne vers deux axes principaux</b>
+                        <br/>1. Urbanisme et aménagement :
+                        <br/>&bull; l'étude et l'élaboration des permis d'aménager</br>2. Construction et rénovation des bâtiments :
+                        <br/>&bull; la construction neuve, l'extension ou surélévation
+                        <br/>&bull; la réhabilitation ou la restructuration de logements (maison ou appartement) TAUP instruit et développe des programmes pour les différentes spécialités et à tous types d'échelle; que ce soit pour la maison individuelle comme pour des missions de maîtrise d'œuvre en conception et en réalisation. Étant donnée l'expérience de son dirigeant dans la conception et le suivi pour des bâtiments publics ainsi que des maisons individuelles, la cohérence entre les échelles est maintenue.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="container-fluid hidden-md-up">
+            <h4>Champs d'activité</h4>
+            <div class="row">
+                <div class="owl-carousel">
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a  href='urbanisme/manizales.php'>Manizales</a> <br> <a href='urbanisme/bursa.php'>Bursa</a> <br> <a href='urbanisme/shanghai.php'>Shanghai</a> <br> <a href='urbanisme/plaine.php'> La Plaine Saint Denis</a>">
+                    <img src="images/urbanisme.jpg" alt="">
+                    <p class="text-center">URBANISME
+                        <br> Recalification et analyse urbaine
+                        <br> Déplacement multimodal
+                    </p>
+                    </a>
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='socio-culturel/espaces_sequentiels.php'>Espaces séquentielles</a> <br> <a href='socio-culturel/musee.php'>Musée</a> <br> <a href='socio-culturel/bibliotheque.php'>Bibliotheque</a>">
+                    <img src="images/socio.jpg" alt="">
+                    <p class="text-center">SOCIOCULTUREL CONCOURS
+                        <br> Conception
+                        <br> Equipement socioculturel
+                    </p>
+                    </a>
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='logement/japon.php'>Japon</a> <br> <a href='logement/colombia.php'>Colombie</a> <br> <a href='logement/allemagne.php'>Allemagne</a>">
+                    <img src="images/logement.jpg" alt="">
+                    <p class="text-center"> LOGEMENT ET HEBERGEMENT
+                        <br> Commande privée
+                        <br> Logement collectif & individuel </p>
+                    </a>
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='maison/renovation.php'>Renovation complète</a> <br> <a href='maison/reamenagement.php'>Reamenagement</a> <br> <a href='maison/cons_nueva.php'>Construction neuve</a>">
+                    <img src="images/maison.jpg" alt="">
+                    <p class="text-center">MAISON INDIVIDUEL
+                        <br> Construction neuve, extrnsion et surélévation
+                        <br> La rehabilitation et renovation de logements privées</p>
+                    </a>
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='sante/michel_beauvais.php'>Michel Beauvais</a> <br> <a href='sante/remy_butler.php'>Remy butler</a>">
+                    <img src="images/sante.jpg" alt="">
+                    <p class="text-center">COLLABORATIONS
+                        <br> Domaine de la santé
+                        <br> Mission de maîtrise d'oeuvre</p>
+                    </a>
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='tertiaire/equipement_urbain.php'>Equipement Urbain</a> <br> <a href='tertiaire/boutique.php'>Concept boutique</a>">
+                    <img src="images/tertiaire.jpg" alt="">
+                    <p class="text-center">TERTIAIRE
+                        <br> Equipement urbaine et locaux commerciaux
+                        <br> Eco-matériaux / Economie solidaire</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid hidden-sm-down py-2">
+            <h4 class="text-center">Champs d'activité</h4>
+            <div class="row">
+                <div class="urbanism col-12 col-md-6 col-xl-4">
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a  href='urbanisme/manizales.php'>Manizales</a> <br> <a href='urbanisme/bursa.php'>Bursa</a> <br> <a href='urbanisme/shanghai.php'>Shanghai</a> <br> <a href='urbanisme/plaine.php'> La Plaine Saint Denis</a>">
+                    <img src="images/urbanisme.jpg" alt="">
+                    <p class="text-center">URBANISME
+                        <br> Recalification et analyse urbaine
+                        <br> Déplacement multimodal
+                    </p>
+                    </a>
+                </div>
+                <div class="socio col-12 col-md-6 col-xl-4">
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='socio-culturel/espaces_sequentiels.php'>Espaces séquentielles</a> <br> <a href='socio-culturel/musee.php'>Musée</a> <br> <a href='socio-culturel/bibliotheque.php'>Bibliotheque</a>" ">
+                    <img src="images/socio.jpg " alt=" ">
+                    <p class="text-center ">SOCIOCULTUREL CONCOURS
+                        <br> Conception
+                        <br> Equipement socioculturel
+                    </p>
+                    </a>
+                </div>
+                <div class="housing col-12 col-md-6 col-xl-4 ">
+                    <role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='logement/japon.php'>Japon</a> <br> <a href='logement/colombia.php'>Colombie</a> <br> <a href='logement/allemagne.php'>Allemagne</a>">
+                    <img src="images/logement.jpg" alt="">
+                    <p class="text-center"> LOGEMENT ET HEBERGEMENT
+                        <br> Commande privée
+                        <br> Logement collectif & individuel </p>
+                    </a>
+                </div>
+                <div class="third col-12 col-md-6 col-xl-4">
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='maison/renovation.php'>Renovation complète</a> <br> <a href='maison/reamenagement.php'>Réamenagement</a> <br> <a href='maison/cons_nueva.php'>Construction neuve</a>">
+                    <img src="images/maison.jpg" alt="">
+                    <p class="text-center">MAISON INDIVIDUEL
+                        <br> Construction neuve, extrnsion et surélévation
+                        <br> La rehabilitation et renovation de logements privées</p>
+                    </a>
+                </div>
+                <div class="health col-12 col-md-6 col-xl-4">
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='sante/michel_beauvais.php'>Michel Beauvais</a> <br> <a href='sante/remy_butler.php'>Remy butler</a>">
+                    <img src="images/sante.jpg" alt="">
+                    <p class="text-center">COLLABORATIONS
+                        <br> Domaine de la santé
+                        <br> Mission de maîtrise d'oeuvre</p>
+                    </a>
+                </div>
+                <div class="design col-12 col-md-6 col-xl-4">
+                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='tertiaire/equipement_urbain.php'>Equipement Urbain</a> <br> <a href='tertiaire/boutique.php'>Concept boutique</a>">
+                    <img src="images/tertiaire.jpg" alt="">
+                    <p class="text-center">TERTIAIRE
+                        <br> Equipement urbaine et locaux commerciaux
+                        <br> Eco-matériaux / Economie solidaire</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="summary" id="summary">
+        <div class="container-fluid py-2">
+            <div class="row">
+                <div class="summary-image col-12 col-md-3 py-1">
+                    <img src="images/project-image.jpg" alt="">
+                </div>
+                <div class="summary-text col-12 col-md-6 py-1">
+                    <h4 class=" py-1">Eduardo Segura - Fondateur de T.A.U.P</h4>
+                    <p>Parfaitement bilingue et possédant une double nationalité, Eduardo Segura a la double compétence puisqu'il est architecte urbaniste en Colombie et en France. C'est grâce à ses voyages et ses rencontres qu'il a forgé sa sensibilité pour le développement de projets d'intérêt général et l'amélioration de la qualité de vie.</p>
+                    <p>Après une première étape en France marquée par la diversité des programmes réalisés en collaboration avec des agences de renom à Paris pour des bâtiments publics, équipements publics et équipements médico-sociaux, il décide d'exercer la profession en tant que libéral menant des opérations de construction pour des particuliers.</p>
+                    <p>Fortement intéressé par l'articulation entre l'échelle architecturale et territoriale, il axe son entreprise vers le développement de programmes de lotissements et de rénovation urbaine.</p>
+                    <p><a href="sur.html">Voir Résumé</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="copyright text-center">© T.A.U.P 2017</p>
+    </footer>
+    <a data-scroll class="scroll-down" href="#services">
+        <i class="fa fa-arrow-circle-down" aria-hidden="false"></i>
+    </a>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
