@@ -10,9 +10,9 @@
             <nav id="main-menu" class="collapse">
                 <ul>
                     <li><a data-scroll href="../index.php#projects">Projets</a></li>
-                    <li><a href="../rd.php">R.&. D.</a></li>
-                    <li><a data-scroll href="../index.php#summary">Sur...</a></li>
-                    <li><a data-scroll href="../index.php#contact">Contact</a></li>
+                    <li><a href="../blog.php">Blog</a></li>
+                    <li><a data-scroll href="../a_propos.php">À propos</a></li>
+                    <li><a data-scroll href="../contact.php">Contact</a></li>
                 </ul>
             </nav>
         </div>

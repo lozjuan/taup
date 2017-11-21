@@ -3,26 +3,26 @@
 <body>
     <?php require_once '../tools/nav.php' ?>
     <section class="project-content">
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin: 0; width: 100%;">
             <div class="row">
                 <?php require_once '../tools/sections-menu.php' ?>
                 <article class="col-12 col-md-10" id="images-project">
                     <div class="images">
                         <h4 id="project-title"><?php echo $TEXTS['renovation']['title'] ?></h4>
-                        <img style="width: 35%; height: auto;" src="../images/renov_1.jpg">
-                        <p id="legend" class="text-center">
+                        <img style="width: 45%; height: auto;" src="../images/renov_1.jpg">
+                        <p id="legend">
                             <?php echo $TEXTS['renovation'][0] ?>
                         </p>
-                        <img style="width: 35%; height: auto;" src="../images/renov_2.jpg">
-                        <p id="legend" class="text-center">
+                        <img style="width: 45%; height: auto;" src="../images/renov_2.jpg">
+                        <p id="legend">
                             <?php echo $TEXTS['renovation'][1] ?>
                         </p>
-                        <img style="width: 35%; height: auto;" src="../images/renov_3.jpg">
-                        <p id="legend" class="text-center">
+                        <img style="width: 45%; height: auto;" src="../images/renov_3.jpg">
+                        <p id="legend">
                             <?php echo $TEXTS['renovation'][2] ?>
                         </p>
                         <img src="../images/renov_4.jpg">
-                        <p id="legend" class="text-center">
+                        <p id="legend">
                             <?php echo $TEXTS['renovation'][3] ?>
                         </p>
                     </div>

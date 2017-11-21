@@ -26,9 +26,7 @@
                         <p>
                             <?php echo $TEXTS['musee'][4] ?>
                         </p>
-                        <div id="portrait-image">
-                            <img src="../images/pmu_3.jpg" alt="">
-                        </div>
+                        <img style="width: 45%; height: auto;" src="../images/pmu_3.jpg" alt="">
                     </div>
                 </article>
             </div>

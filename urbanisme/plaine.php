@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row">
                 <?php require_once '../tools/sections-menu.php' ?>
-                <article class="col-12 col-md-10 col-lg-10" id="images-project">
+                <article class="col-12 col-md-10" id="images-project">
                     <div class="images">
                         <h4 id="project-title"><?php echo $TEXTS['plaine']['title'] ?></h4>
                         <img src="../images/pp_1.jpg" alt="">

@@ -13,8 +13,8 @@
                 <nav id="main-menu" class="collapse">
                     <ul>
                         <li><a data-scroll href="#projects">Projets</a></li>
-                        <li><a href="rd.php">R.&. D.</a></li>
-                        <li><a data-scroll href="#summary">Sur...</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a data-scroll href="a_propos.php">À propos...</a></li>
                         <li><a data-scroll href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
@@ -31,24 +31,64 @@
     </section>
     <section class="services" id="services">
         <div class="container py-2">
-            <div class="agency">
-                <p>T.A.U.P est une SASU créée par un Professional souhaitant associer des compétences complémentaires pour élargir son champ de compétence et son champ d'action dans l'aménagement du territoire.</p>
-            </div>
             <div class="row">
-                <div class="col-6">
-                    <img src="images/logo.svg" alt="">
-                    <h4><b>SERVICES</b></h4>
-                    <p><b>T.A.U.P</b> est accompagnée du dispositif de soutien à la création et développement d’entreprises ECHELLE-UN. Elle souhaite servir à l'articulation entre la ville et le territoire grâce à une lecture transversale tout en participant activement à la constante transformation de notre territoire. Avec la nouvelle disposition légale visant à redonner une qualité architecturale et paysagère aux zones de lotissement (Loi Cap), TAUP fait les études de faisabilité, pre opérationnelles et instruit le permis d'aménager. En se rapprochant des professionnels de l'aménagement et de la construction, TAUP souhaite intégrer des équipes pluridisciplinaires et créer une synergie afin de concentrer les efforts dans le l'acte de réfléchir la ville de demain.
+                <div class="col-12 hidden-sm-up services-mobile">
+                    <img style="width: 32%; height: auto;" src="images/logo.jpg" alt="">
+                    <a class="btn btn-service" data-toggle="collapse" href="#collapseConseil" aria-expanded="true" aria-controls="collapseConseil">
+                        ÉTUDE & CONSEIL
+                    </a>
+                    <div class="collapse show" id="collapseConseil">
+                        <div class="card-block">
+                            <p>TAUP réalise des études urbaines et d'aménagement en pré-opérationnel afin d'établir le projet architectural, paysager et environnemental dans le cadre d'un lotissement. <br>
+ 
+                            Nous faisons également les études de faisabilité pour des projets de maison individuelle, l'estimatif des travaux, et la mise au point technique et budgétaire ainsi que la définition du cahier de charges et instruction du permis de construction. <br>
+
+                            Nous prenons en main des lots et/ou ensembles pour des entreprises en marché public que ce soit pour des études ponctuelles, pour la mise au point technique en phase PRO comme pour des mission d'accompagnement en démarche BIM. <br>
+ 
+                            Grâce à ses expériences et ses connaissances des contrats et normes locales, TAUP accompagne les particuliers ainsi que des sociétés et groupes internationaux dans le développement de leurs projets en France et en Colombie. <br>
+                            </p>
+                        </div>
+                    </div>
+                    <img style="width: 28%; height: auto;" src="images/accompagnement.jpg" alt="">
+                    <a class="btn btn-realisation" data-toggle="collapse" href="#collapseRealisation" aria-expanded="true" aria-controls="collapseRealisation">
+                        ACCOMPAGNEMENT & RÉALISATION
+                    </a>
+                    <div class="collapse show" id="collapseRealisation">
+                        <div class="card-block">
+                            <p>Quand il s'agit d'aménager votre parcelle et d'avoir une idée générale des travaux, TAUP vous accompagne et vous aide à la prise de décision en amont et tout au long du développement du projet ainsi que lors de l'instruction du permis d'aménager. <br>
+ 
+                            Nous vous accompagnons tout au long de l'opération pour la maison individuelle. Que ce soit pour l'ébauche de solutions, la mise au pont technique sous forme de plans mais aussi en dressant la liste des interventions et leur quantification. Nous assurons votre relation contractuelle avec les entreprises et les artisans et nous instruisons les dossiers administratifs. Si vous le souhaitez nous intervenons pour la direction et le suivi de votre chantier. <br>
+ 
+                            Pour les entreprises travaillant dans le secteur public nous vous accompagnons dans le choix de la stratégie à mettre en place pour votre démarche BIM. <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 hidden-xs-down">
+                    <div class="services-images">
+                        <img style="width: 11%; height: auto;" src="images/logo.jpg" alt="">
+                    </div>
+                    <h4><b>ÉTUDE & CONSEIL</b></h4>
+                    <p>TAUP réalise des études urbaines et d'aménagement en pré-opérationnel afin d'établir le projet architectural, paysager et environnemental dans le cadre d'un lotissement. <br>
+ 
+                    Nous faisons également les études de faisabilité pour des projets de maison individuelle, l'estimatif des travaux, et la mise au point technique et budgétaire ainsi que la définition du cahier de charges et instruction du permis de construction. <br>
+
+                    Nous prenons en main des lots et/ou ensembles pour des entreprises en marché public que ce soit pour des études ponctuelles, pour la mise au point technique en phase PRO comme pour des mission d'accompagnement en démarche BIM. <br>
+ 
+                    Grâce à ses expériences et ses connaissances des contrats et normes locales, TAUP accompagne les particuliers ainsi que des sociétés et groupes internationaux dans le développement de leurs projets en France et en Colombie. <br>
                     </p>
                 </div>
-                <div class="col-6">
-                    <img src="images/rd_icon.svg" alt="">
-                    <h4><b>R&D</b></h4>
-                    <p><b>L'activité de l'agence se tourne vers deux axes principaux</b>
-                        <br/>1. Urbanisme et aménagement :
-                        <br/>&bull; l'étude et l'élaboration des permis d'aménager</br>2. Construction et rénovation des bâtiments :
-                        <br/>&bull; la construction neuve, l'extension ou surélévation
-                        <br/>&bull; la réhabilitation ou la restructuration de logements (maison ou appartement) TAUP instruit et développe des programmes pour les différentes spécialités et à tous types d'échelle; que ce soit pour la maison individuelle comme pour des missions de maîtrise d'œuvre en conception et en réalisation. Étant donnée l'expérience de son dirigeant dans la conception et le suivi pour des bâtiments publics ainsi que des maisons individuelles, la cohérence entre les échelles est maintenue.</p>
+                <div class="col-6 hidden-xs-down">
+                    <div class="services-images"> 
+                        <img style="width: 8%; height: auto;" src="images/accompagnement.jpg" alt="">
+                    </div>
+                    <h4 style="background: #8cc1e3;"><b>ACCOMPAGNEMENT & RÉALISATION</b></h4>
+                    <p>Quand il s'agit d'aménager votre parcelle et d'avoir une idée générale des travaux, TAUP vous accompagne et vous aide à la prise de décision en amont et tout au long du développement du projet ainsi que lors de l'instruction du permis d'aménager. <br>
+ 
+                    Nous vous accompagnons tout au long de l'opération pour la maison individuelle. Que ce soit pour l'ébauche de solutions, la mise au pont technique sous forme de plans mais aussi en dressant la liste des interventions et leur quantification. Nous assurons votre relation contractuelle avec les entreprises et les artisans et nous instruisons les dossiers administratifs. Si vous le souhaitez nous intervenons pour la direction et le suivi de votre chantier. <br>
+ 
+                    Pour les entreprises travaillant dans le secteur public nous vous accompagnons dans le choix de la stratégie à mettre en place pour votre démarche BIM. <br>
+                    </p>
                 </div>
             </div>
         </div>
@@ -58,44 +98,65 @@
             <h4>Champs d'activité</h4>
             <div class="row">
                 <div class="owl-carousel">
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a  href='urbanisme/manizales.php'>Manizales</a> <br> <a href='urbanisme/bursa.php'>Bursa</a> <br> <a href='urbanisme/shanghai.php'>Shanghai</a> <br> <a href='urbanisme/plaine.php'> La Plaine Saint Denis</a>">
-                    <img src="images/urbanisme.jpg" alt="">
-                    <p class="text-center">URBANISME
-                        <br> Recalification et analyse urbaine
-                        <br> Déplacement multimodal
-                    </p>
-                    </a>
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='socio-culturel/espaces_sequentiels.php'>Espaces séquentielles</a> <br> <a href='socio-culturel/musee.php'>Musée</a> <br> <a href='socio-culturel/bibliotheque.php'>Bibliotheque</a>">
-                    <img src="images/socio.jpg" alt="">
-                    <p class="text-center">SOCIOCULTUREL CONCOURS
-                        <br> Conception
-                        <br> Equipement socioculturel
-                    </p>
-                    </a>
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='logement/japon.php'>Japon</a> <br> <a href='logement/colombia.php'>Colombie</a> <br> <a href='logement/allemagne.php'>Allemagne</a>">
-                    <img src="images/logement.jpg" alt="">
-                    <p class="text-center"> LOGEMENT ET HEBERGEMENT
-                        <br> Commande privée
-                        <br> Logement collectif & individuel </p>
-                    </a>
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='maison/renovation.php'>Renovation complète</a> <br> <a href='maison/reamenagement.php'>Reamenagement</a> <br> <a href='maison/cons_nueva.php'>Construction neuve</a>">
-                    <img src="images/maison.jpg" alt="">
-                    <p class="text-center">MAISON INDIVIDUEL
-                        <br> Construction neuve, extrnsion et surélévation
-                        <br> La rehabilitation et renovation de logements privées</p>
-                    </a>
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='sante/michel_beauvais.php'>Michel Beauvais</a> <br> <a href='sante/remy_butler.php'>Remy butler</a>">
-                    <img src="images/sante.jpg" alt="">
-                    <p class="text-center">COLLABORATIONS
-                        <br> Domaine de la santé
-                        <br> Mission de maîtrise d'oeuvre</p>
-                    </a>
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='tertiaire/equipement_urbain.php'>Equipement Urbain</a> <br> <a href='tertiaire/boutique.php'>Concept boutique</a>">
-                    <img src="images/tertiaire.jpg" alt="">
-                    <p class="text-center">TERTIAIRE
-                        <br> Equipement urbaine et locaux commerciaux
-                        <br> Eco-matériaux / Economie solidaire</p>
-                    </a>
+                    <div>
+                        <img src="images/urbanisme.jpg" alt="">
+                        <p class="text-center">URBANISME
+                            <br> Recalification et analyse urbaine
+                            <br> Déplacement multimodal
+                            <br> <a href='urbanisme/manizales.php'>AMÉNAGEMENT</a> 
+                            <br> <a href='urbanisme/bursa.php'>TRANSPORT</a> 
+                            <br> <a href='urbanisme/shanghai.php'>SCHÉMA DIRECTEUR</a> 
+                            <br> <a href='urbanisme/plaine.php'> COHÉSION TERRITORIALE</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/socio.jpg" alt="">
+                        <p class="text-center">SOCIOCULTUREL CONCOURS
+                            <br> Conception
+                            <br> Equipement socioculturel
+                            <br> <a href='socio-culturel/espaces_sequentiels.php'>AMÉNAGEMENT</a> 
+                            <br> <a href='socio-culturel/musee.php'>REQUALIFICATION</a> 
+                            <br> <a href='socio-culturel/bibliotheque.php'>RÉHABILITATION</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/logement.jpg" alt="">
+                        <p class="text-center"> LOGEMENT ET HEBERGEMENT
+                            <br> Commande privée
+                            <br> Logement collectif & individuel
+                            <br> <a href='logement/japon.php'>PROSPECTIVE</a> 
+                            <br> <a href='logement/colombia.php'>FONCTIONNALITÉ</a> 
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/maison.jpg" alt="">
+                        <p class="text-center">MAISON INDIVIDUEL
+                            <br> Construction neuve, extrnsion et surélévation
+                            <br> La rehabilitation et renovation de logements privées
+                            <br> <a href='maison/renovation.php'>RENOVATION</a> 
+                            <br> <a href='maison/reamenagement.php'>RÉAMÉNAGEMENT</a> 
+                            <br> <a href='maison/cons_nueva.php'>NEUF</a> 
+                            <br> <a href='maison/allemagne.php'>CONSTRUCTION</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/sante.jpg" alt="">
+                        <p class="text-center">COLLABORATIONS
+                            <br> Domaine de la santé
+                            <br> Mission de maîtrise d'oeuvre
+                            <br> <a href='sante/michel_beauvais.php'>EHPAD/PA/CHU</a> 
+                            <br> <a href='sante/remy_butler.php'>MÉDICO-SOCIAUX</a>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/tertiaire.jpg" alt="">
+                        <p class="text-center">TERTIAIRE
+                            <br> Equipement urbaine et locaux commerciaux
+                            <br> Eco-matériaux / Economie solidair
+                            <br> <a href='tertiaire/equipement_urbain.php'>EQUIPEMENT URBAIN</a> 
+                            <br> <a href='tertiaire/boutique.php'>MENUISERIE INTÉRIEURE</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,25 +164,25 @@
             <h4 class="text-center">Champs d'activité</h4>
             <div class="row">
                 <div class="urbanism col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a  href='urbanisme/manizales.php'>Manizales</a> <br> <a href='urbanisme/bursa.php'>Bursa</a> <br> <a href='urbanisme/shanghai.php'>Shanghai</a> <br> <a href='urbanisme/plaine.php'> La Plaine Saint Denis</a>">
+                    <a role="button" class="btn popovers" data-toggle="popover" id="urban-box">
                     <img src="images/urbanisme.jpg" alt="">
                     <p class="text-center">URBANISME
-                        <br> Recalification et analyse urbaine
+                        <br> Requalification et analyse urbaine
                         <br> Déplacement multimodal
                     </p>
                     </a>
                 </div>
                 <div class="socio col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='socio-culturel/espaces_sequentiels.php'>Espaces séquentielles</a> <br> <a href='socio-culturel/musee.php'>Musée</a> <br> <a href='socio-culturel/bibliotheque.php'>Bibliotheque</a>" ">
+                    <a role="button" class="btn popovers" data-toggle="popover" id="socio-box">
                     <img src="images/socio.jpg " alt=" ">
                     <p class="text-center ">SOCIOCULTUREL CONCOURS
                         <br> Conception
-                        <br> Equipement socioculturel
+                        <br> Equipement socio-culturel
                     </p>
                     </a>
                 </div>
                 <div class="housing col-12 col-md-6 col-xl-4 ">
-                    <role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='logement/japon.php'>Japon</a> <br> <a href='logement/colombia.php'>Colombie</a> <br> <a href='logement/allemagne.php'>Allemagne</a>">
+                    <a role="button" class="btn popovers" data-toggle="popover" id="housing-box">
                     <img src="images/logement.jpg" alt="">
                     <p class="text-center"> LOGEMENT ET HEBERGEMENT
                         <br> Commande privée
@@ -129,7 +190,7 @@
                     </a>
                 </div>
                 <div class="third col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='maison/renovation.php'>Renovation complète</a> <br> <a href='maison/reamenagement.php'>Réamenagement</a> <br> <a href='maison/cons_nueva.php'>Construction neuve</a>">
+                    <a role="button" class="btn popovers" data-toggle="popover" id="third-box">
                     <img src="images/maison.jpg" alt="">
                     <p class="text-center">MAISON INDIVIDUEL
                         <br> Construction neuve, extrnsion et surélévation
@@ -137,7 +198,7 @@
                     </a>
                 </div>
                 <div class="health col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='sante/michel_beauvais.php'>Michel Beauvais</a> <br> <a href='sante/remy_butler.php'>Remy butler</a>">
+                    <a role="button" class="btn popovers" data-toggle="popover" id="health-box">
                     <img src="images/sante.jpg" alt="">
                     <p class="text-center">COLLABORATIONS
                         <br> Domaine de la santé
@@ -145,7 +206,7 @@
                     </a>
                 </div>
                 <div class="design col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" title="Projets" data-content="<a href='tertiaire/equipement_urbain.php'>Equipement Urbain</a> <br> <a href='tertiaire/boutique.php'>Concept boutique</a>">
+                    <a role="button" class="btn popovers" data-toggle="popover" id="design-box">
                     <img src="images/tertiaire.jpg" alt="">
                     <p class="text-center">TERTIAIRE
                         <br> Equipement urbaine et locaux commerciaux
@@ -158,20 +219,17 @@
     <section class="summary" id="summary">
         <div class="container-fluid py-2">
             <div class="row">
-                <div class="summary-image col-12 col-md-3 py-1">
-                    <img src="images/project-image.jpg" alt="">
-                </div>
-                <div class="summary-text col-12 col-md-6 py-1">
-                    <h4 class=" py-1">Eduardo Segura - Fondateur de T.A.U.P</h4>
-                    <p>Parfaitement bilingue et possédant une double nationalité, Eduardo Segura a la double compétence puisqu'il est architecte urbaniste en Colombie et en France. C'est grâce à ses voyages et ses rencontres qu'il a forgé sa sensibilité pour le développement de projets d'intérêt général et l'amélioration de la qualité de vie.</p>
-                    <p>Après une première étape en France marquée par la diversité des programmes réalisés en collaboration avec des agences de renom à Paris pour des bâtiments publics, équipements publics et équipements médico-sociaux, il décide d'exercer la profession en tant que libéral menant des opérations de construction pour des particuliers.</p>
-                    <p>Fortement intéressé par l'articulation entre l'échelle architecturale et territoriale, il axe son entreprise vers le développement de programmes de lotissements et de rénovation urbaine.</p>
-                    <p><a href="sur.html">Voir Résumé</a></p>
+                <div class="summary-image col-12 py-1">
+                    <a href="http://annuaire.architectes.org/?region_slug=national" target="_blank"><img src="images/croaif.jpg"></a>
+                    <a href="http://apex-recherche.org/presentation.html" target="_blank"><img src="images/apex.png"></a>
+                    <a href="http://sti-topographie.fr/"><img src="images/sti.jpg" target="_blank"></a>
+                    <a href="https://www.facebook.com/ArchitectesEtParticuliers/" target="_blank"><img src="images/ap.jpg"></a>
+                    <a href="http://www.marnelavallee.archi.fr/entreprendre/incubateur-echelle-1" target="_blank"><img src="images/ech1.png"></a>
                 </div>
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <p class="copyright text-center">© T.A.U.P 2017</p>
     </footer>
     <a data-scroll class="scroll-down" href="#services">

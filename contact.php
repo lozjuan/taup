@@ -14,62 +14,69 @@
                 <nav id="main-menu" class="collapse">
                     <ul>
                         <li><a data-scroll href="index.php#projects">Projets</a></li>
-                        <li><a href="rd.php">R.&. D.</a></li>
-                        <li><a data-scroll href="index.php#summary">Sur...</a></li>
-                        <li><a data-scroll href="index.php#contact">Contact</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a data-scroll href="a_propos.php">À propos...</a></li>
+                        <li><a data-scroll href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
     </section>
     <section class="contact-content">
-        <div class="info">
-            <img style="width: 40%;" src="images/logo.svg" alt="">
-            <h4>T.A.U.P</h4>
-            <p>Territoire Architecture Urbanisme & Patrimoine</p>
-            <p>Rue des Alouettes 75019</p>
-            <p>06.19.59.02.43</p>
-            <p>Réf. ordre des architects 083225</p>
-        </div>
-        <div class="form">
-            <h3>Contactez-nous</h3>
-            <hr style="margin: 0 auto 2rem;">
-            <div role="form">
-                <form action="" method="post" class="contact-form">
-                    <p>Nom
-                        <br>
-                        <span>
-    					<input type="text" name="last_name" value size="40" class="" aria-required="true"  aria-invalid="false">
-    				</span>
-                    </p>
-                    <p>Prénom
-                        <br>
-                        <span>
-                		<input type="text" name="name" value size="40" class="" aria-required="true"  aria-invalid="false">
-                	</span>
-                    </p>
-                    <p>Email
-                        <br>
-                        <span>
-                		<input type="text" name="email" value size="40" class="" aria-required="true"  aria-invalid="false">
-                	</span>
-                    </p>
-                    <p>Sujet
-                        <br>
-                        <span>
-                		<input type="text" name="topic" value size="40" class="" aria-required="true"  aria-invalid="false">
-                	</span>
-                    </p>
-                    <p>Votre Massage
-                        <br>
-                        <span>
-                		<textarea type="text" name="message" cols="40" rows="10" class="message" aria-required="true" aria-invalid="false"></textarea>
-                	</span>
-                    </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="info col-12 col-md-6">
+                    <img style="width: 60%;" src="images/logo_contact.jpg" alt="">
+                    <div><h4>T.A.U.P</h4><h4 style="font-size: 0.8rem;">&emsp; sasu</h4></div>
+                    <p>Territoire Architecture Urbanisme & Patrimoine</p>
                     <p>
-                        <button type="submit" name="send" class="btn btn-success">Envoyer</button>
+                        41 rue des Alouettes 75019 
+                        <br>06.19.59.02.43 
+                        <br>Réf. ordre des architects 083225 
+                        <br>SIRET : 830 884 318 00015
                     </p>
-                </form>
+                </div>
+                <div class="form col-12 col-md-6">
+                    <h3>Contactez-nous</h3>
+                    <hr style="margin: 0 auto 2rem;">
+                    <div role="form">
+                        <form action="mailer/mailer.php" method="post" class="contact-form">
+                            <p>Nom
+                                <br>
+                                <span>
+            					<input type="text" name="last_name" value size="40" class="" aria-required="true"  aria-invalid="false">
+            				</span>
+                            </p>
+                            <p>Prénom
+                                <br>
+                                <span>
+                        		<input type="text" name="name" value size="40" class="" aria-required="true"  aria-invalid="false">
+                        	</span>
+                            </p>
+                            <p>Email
+                                <br>
+                                <span>
+                        		<input type="text" name="email" value size="40" class="" aria-required="true"  aria-invalid="false">
+                        	</span>
+                            </p>
+                            <p>Sujet
+                                <br>
+                                <span>
+                        		<input type="text" name="topic" value size="40" class="" aria-required="true"  aria-invalid="false">
+                        	</span>
+                            </p>
+                            <p>Votre Massage
+                                <br>
+                                <span>
+                        		<textarea type="text" name="message" cols="39" rows="10" class="message" aria-required="true" aria-invalid="false"></textarea>
+                        	</span>
+                            </p>
+                            <p>
+                                <button type="submit" name="send" class="btn btn-success">Envoyer</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

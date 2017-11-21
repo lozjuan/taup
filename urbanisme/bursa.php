@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row">
                 <?php require_once '../tools/sections-menu.php' ?>
-                <article class="col-12 col-md-10 col-lg-10" id="images-project">
+                <article class="col-12 col-md-10" id="images-project">
                     <div class="images">
                         <h4 id="project-title"><? echo $TEXTS['bursa']['title'] ?></h4>
                         <img src="../images/pb_1.jpg" alt="">
@@ -24,7 +24,10 @@
                         </div>
                         <img class="hidden-md-up" src="../images/pb_4.jpg" alt="">
                         <h4><? echo $TEXTS['bursa'][3] ?></h4>
-                        <img src="../images/pb_5.jpg" alt="">
+                        <div class="hidden-sm-down" id="image-wrapper">
+                            <img class="zoom" src="../images/pb_5.jpg" data-big="../images/pb_5.jpg" alt="">
+                        </div>
+                        <img class="hidden-md-up" src="../images/pb_5.jpg" alt="">
                         <h4><? echo $TEXTS['bursa'][4] ?></h4>
                          <div class="hidden-sm-down" id="image-wrapper">
                             <img class="zoom" src="../images/pb_6.jpg" data-big="../images/pb_6.jpg" alt="">

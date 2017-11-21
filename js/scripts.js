@@ -70,18 +70,53 @@ $(document).ready(function() {
 
 /* hides scroll-down */
 $(document).scroll(function() {
-    if ($(this).scrollTop() > 1500) {
+    if ($(this).scrollTop() > 1100) {
         $('.scroll-down').hide();
     } else {
         $('.scroll-down').show();
     }
 });
 
-
 /* Menu popovers*/
-$(function() {
-    $('[data-toggle="popover"]').popover();
-});
+$(document).ready(function() {
+    if ($(window).width() < 768) {
+        $("#urban-box").popover('hide');
+        $("#socio-box").popover('hide');
+        $("#housing-box").popover('hide');
+        $("#third-box").popover('hide');
+        $("#health-box").popover('hide');
+        $("#design-box").popover('hide');
+    } else {
+        $("#urban-box").popover({
+            title: '<h3 class="etude-title">ÉTUDE ET CONSEIL</h3>',
+            content: "<a href='urbanisme/manizales.php'>AMÉNAGEMENT</a> <br> <a href='urbanisme/bursa.php'>TRANSPORT</a> <br> <a href='urbanisme/shanghai.php'>SCHÉMA DIRECTEUR</a> <br> <a href='urbanisme/plaine.php'> COHÉSION TERRITORIALE</a>",
+            html: true
+        }).popover('show');
+        $("#socio-box").popover({
+            title: '<h3 class="etude-title">ÉTUDE ET CONSEIL</h3>',
+            content: "<a href='socio-culturel/espaces_sequentiels.php'>AMÉNAGEMENT</a> <br> <a href='socio-culturel/musee.php'>REQUALIFICATION</a> <br> <a href='socio-culturel/bibliotheque.php'>RÉHABILITATION</a>",
+            html: true
+        }).popover('show');
+        $("#housing-box").popover({
+            title: '<h3 class="etude-title">ÉTUDE ET CONSEIL</h3>',
+            content: "<a href='logement/japon.php'>PROSPECTIVE</a> <br> <a href='logement/colombia.php'>FONCTIONNALITÉ</a>",
+            html: true
+        }).popover('show');
+        $("#third-box").popover({
+            title: '<h3 class="accompagnement-title">ACCOMPAGNEMENT & RÉALISATION</h3>',
+            content: "<a href='maison/renovation.php'>RENOVATION</a> <br> <a href='maison/reamenagement.php'>RÉAMÉNAGEMENT</a> <br> <a href='maison/cons_nueva.php'>NEUF</a> <br> <a href='maison/allemagne.php'>CONSTRUCTION</a>",
+            html: true
+        }).popover('show');
+        $("#health-box").popover({
+            title: '<h3 class="accompagnement-title">ACCOMPAGNEMENT & RÉALISATION</h3>',
+            content: "<a href='sante/michel_beauvais.php'>EHPAD/PA/CHU</a> <br> <a href='sante/remy_butler.php'>MÉDICO-SOCIAUX</a>",
+            html: true
+        }).popover('show');
+        $("#design-box").popover({
+            title: '<h3 class="etude-title">ÉTUDE ET CONSEIL</h3>',
+            content: "<a href='tertiaire/equipement_urbain.php'>EQUIPEMENT URBAIN</a> <br> <a href='tertiaire/boutique.php'>MENUISERIE INTÉRIEURE</a>",
+            html: true
+        }).popover('show');
+    }
 
-$("[data-toggle=popover]")
-    .popover({ html: true });
+});

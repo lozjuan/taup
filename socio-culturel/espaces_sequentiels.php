@@ -25,9 +25,7 @@
                             <?php echo $TEXTS['espaces'][5] ?>
                         </p>
                         <h4><?php echo $TEXTS['espaces'][6] ?></h4>
-                        <div id="portrait-image">
-                            <img src="../images/pes_2.jpg" alt="">
-                        </div>
+                        <img src="../images/pes_2.jpg" alt="">
                         <h4><?php echo $TEXTS['espaces'][7] ?></h4>
                         <img src="../images/pes_3.jpg" alt="">
                         <p id="after-image">

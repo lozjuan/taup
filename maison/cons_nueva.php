@@ -3,18 +3,18 @@
 <body>
     <?php require_once '../tools/nav.php' ?>
     <section class="project-content">
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin: 0; width: 100%;>
             <div class="row">
                 <?php require_once '../tools/sections-menu.php' ?>
                 <article class="col-12 col-md-10" id="images-project">
                     <div class="images">
                         <h4 id="project-title"><?php echo $TEXTS['construction']['title'] ?></h4>
                         <img src="../images/cons_nueva_1.jpg">
-                        <p id="legend" class="text-center">
+                        <p id="legend">
                             <?php echo $TEXTS['construction'][0] ?>
                         </p>
                         <img src="../images/cons_nueva_2.jpg">
-                        <p id="legend" class="text-center">
+                        <p id="legend">
                             <?php echo $TEXTS['construction'][1] ?>
                         </p>
                         <img src="../images/cons_nueva_3.jpg">

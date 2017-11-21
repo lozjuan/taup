@@ -3,22 +3,22 @@
 <body>
     <?php require_once '../tools/nav.php' ?>
     <section class="project-content">
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin: 0; width: 100%;>
             <div class="row">
                 <?php require_once '../tools/sections-menu.php' ?>
                 <article class="col-12 col-md-10" id="images-project">
                     <div class="images">
                         <h4 id="project-title"><?php echo $TEXTS['reamenagement']['title'] ?></h4>
                         <img src="../images/ream_1.jpg">
-                        <p class="text-center" id="legend"><?php echo $TEXTS['reamenagement'][0] ?></p>
-                        <img style="width: 35%; height: auto;" src="../images/ream_2.jpg">
-                        <p class="text-center" id="legend"><?php echo $TEXTS['reamenagement'][1] ?></p>
-                        <img style="width: 35%; height: auto;" src="../images/ream_3.jpg">
-                        <p class="text-center" id="legend"><?php echo $TEXTS['reamenagement'][2] ?></p>
-                        <img style="width: 35%; height: auto;" src="../images/ream_4.jpg">
+                        <p id="legend"><?php echo $TEXTS['reamenagement'][0] ?></p>
+                        <img style="width: 45%; height: auto;" src="../images/ream_2.jpg">
+                        <p id="legend"><?php echo $TEXTS['reamenagement'][1] ?></p>
+                        <img style="width: 45%; height: auto;" src="../images/ream_3.jpg">
+                        <p id="legend"><?php echo $TEXTS['reamenagement'][2] ?></p>
+                        <img style="width: 45%; height: auto;" src="../images/ream_4.jpg">
                         <p class="text-center" id="legend"><?php echo $TEXTS['reamenagement'][3] ?></p>
                         <img src="../images/ream_5.jpg">
-                        <img style="width: 35%; height: auto;" src="../images/ream_6.jpg">
+                        <img style="width: 45%; height: auto;" src="../images/ream_6.jpg">
                     </div>
                 </article>
             </div>

@@ -1,50 +1,50 @@
 <article class="py-1 col-md-2" id="sections-menu">
     <ul class="sections-menu">
-        <button type="buton" data-target="#urbanisme" data-toggle="collapse" aria-expanded="false">Urbanisme</button>
+        <button type="buton" data-target="#urbanisme" data-toggle="collapse" aria-expanded="false">URBANISME</button>
         <nav id="urbanisme" class="collapse">
             <li>
-                <a href="../urbanisme/manizales.php">Manizales</a>
-                <a href="../urbanisme/bursa.php">Bursa</a>
-                <a href="../urbanisme/shanghai.php">Shanghai</a>
-                <a href="../urbanisme/plaine.php">La Plaine</a>
+                <a href="../urbanisme/manizales.php">Aménagement</a>
+                <a href="../urbanisme/bursa.php">Transport</a>
+                <a href="../urbanisme/shanghai.php">Schéma directeur</a>
+                <a href="../urbanisme/plaine.php">Cohésion territoriale</a>
             </li>
         </nav>
-        <button type="buton" data-target="#socio" data-toggle="collapse" aria-expanded="false">Socio-culturel</button>
+        <button type="buton" data-target="#socio" data-toggle="collapse" aria-expanded="false">SOCIO-CULTUREL</button>
         <nav id="socio" class="collapse">
             <li>
-                <a href="../socio-culturel/espaces_sequentiels.php">Espaces séquentielles</a>
-                <a href="../socio-culturel/musee.php">Musée</a>
-                <a href="../socio-culturel/bibliotheque.php">Bibliothèque</a>
+                <a href="../socio-culturel/espaces_sequentiels.php">Aménagement</a>
+                <a href="../socio-culturel/musee.php">Requalification</a>
+                <a href="../socio-culturel/bibliotheque.php">Réhabilitation</a>
             </li>
         </nav>
-        <button type="buton" data-target="#logement" data-toggle="collapse" aria-expanded="false">Logement</button>
+        <button type="buton" data-target="#logement" data-toggle="collapse" aria-expanded="false">LOGEMENT</button>
         <nav id="logement" class="collapse">
             <li>
-                <a href="../logement/japon.php">Japon</a>
-                <a href="../logement/colombia.php">Colombie</a>
-                <a href="../logement/allemagne.php">Allemagne</a>
+                <a href="../logement/japon.php">Prospective</a>
+                <a href="../logement/colombia.php">Fonctionnalité</a>
             </li>
         </nav>
-        <button type="buton" data-target="#maison" data-toggle="collapse" aria-expanded="false">Maison individuelle</button>
+        <button type="buton" data-target="#maison" data-toggle="collapse" aria-expanded="false">MAISON INDIVIDULLE</button>
         <nav id="maison" class="collapse">
             <li>
-                <a href="../maison/renovation.php">Renovation complète</a>
+                <a href="../maison/renovation.php">Renovation</a>
                 <a href="../maison/reamenagement.php">Réaménagement</a>
-                <a href="../maison/cons_nueva.php">Construction neuve</a>
+                <a href="../maison/cons_nueva.php">Neuf</a>
+                <a href="../maison/allemagne.php">Construction</a>
             </li>
         </nav>
-        <button type="buton" data-target="#sante" data-toggle="collapse" aria-expanded="false">Collaboration santé</button>
+        <button type="buton" data-target="#sante" data-toggle="collapse" aria-expanded="false">COLLABORATION SANTÉ</button>
         <nav id="sante" class="collapse">
             <li>
-                <a href="../sante/michel_beauvais.php">Michel Bauvais <br> et associées</a>
-                <a href="../sante/remy_butler.php">Remy Buttler</a>
+                <a href="../sante/michel_beauvais.php">EHPAD/PA/CHU</a>
+                <a href="../sante/remy_butler.php">Médico-sociaux</a>
             </li>
         </nav>
-        <button type="buton" data-target="#tertiaire" data-toggle="collapse" aria-expanded="false">Tertiaire</button>
+        <button type="buton" data-target="#tertiaire" data-toggle="collapse" aria-expanded="false">TERTIAIRE</button>
         <nav id="tertiaire" class="collapse">
             <li>
                 <a href="../tertiaire/equipement_urbain.php">Equipement urbain</a>
-                <a href="../tertiaire/boutique.php">Concept boutique</a>
+                <a href="../tertiaire/boutique.php">Menuiserie intérieure</a>
             </li>
         </nav>
     </ul>

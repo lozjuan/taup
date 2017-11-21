@@ -3,31 +3,31 @@
 <body>
     <?php require_once '../tools/nav.php' ?>
     <section class="project-content">
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin: 0; width: 100%;>
             <div class="row">
                 <?php require_once '../tools/sections-menu.php' ?>
                 <article class="col-12 col-md-10" id="images-project">
                     <div class="images">
                         <h4 id="project-title"><?php echo $TEXTS['boutique']['title'] ?></h4>
-                        <img style="width: 40%; height: auto;" src="../images/bou_1.jpg">
-                        <p id="legend" class="text-center">
+                        <img style="width: 45%; height: auto;" src="../images/bou_1.jpg">
+                        <p id="legend">
                             <?php echo $TEXTS['boutique'][0] ?>
                         </p>
 
-                        <img style="width: 40%; height: auto;" src="../images/bou_2.jpg">
-                        <p id="legend" class="text-center">
+                        <img style="width: 45%; height: auto;" src="../images/bou_2.jpg">
+                        <p id="legend">
                             <?php echo $TEXTS['boutique'][1] ?>
                         </p>
-                        <img style="width: 40%; height: auto;" src="../images/bou_3.jpg">
-                        <p id="legend" class="text-center">
+                        <img style="width: 45%; height: auto;" src="../images/bou_3.jpg">
+                        <p id="legend">
                             <?php echo $TEXTS['boutique'][2] ?>
                         </p>
-                        <img style="width: 40%; height: auto;" src="../images/bou_4.jpg">
-                        <p id="legend" class="text-center">
+                        <img style="width: 45%; height: auto;" src="../images/bou_4.jpg">
+                        <p id="legend">
                             <?php echo $TEXTS['boutique'][3] ?>
                         </p>
                         <img src="../images/bou_5.jpg">
-                        <p id="legend" class="text-center">
+                        <p id="legend">
                             <?php echo $TEXTS['boutique'][4] ?>
                         </p>
                     </div>

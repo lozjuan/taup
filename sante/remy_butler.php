@@ -23,9 +23,7 @@
             </div>
         </div>
     </section>
-    <footer>
-        <p class="copyright text-center">© T.A.U.P 2017</p>
-    </footer>
+    <?php require_once '../tools/footer.php' ?>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
