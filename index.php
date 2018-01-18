@@ -99,63 +99,88 @@
             <div class="row">
                 <div class="owl-carousel">
                     <div>
-                        <img src="images/urbanisme.jpg" alt="">
-                        <p class="text-center">URBANISME
-                            <br> Recalification et analyse urbaine
-                            <br> Déplacement multimodal
-                            <br> <a href='urbanisme/manizales.php'>AMÉNAGEMENT</a> 
-                            <br> <a href='urbanisme/bursa.php'>TRANSPORT</a> 
-                            <br> <a href='urbanisme/shanghai.php'>SCHÉMA DIRECTEUR</a> 
-                            <br> <a href='urbanisme/plaine.php'> COHÉSION TERRITORIALE</a>
-                        </p>
+                        <img src="images/urbanisme.jpg" id="image-urbanism" alt="">
+                        <div class="container-btn-mobile">
+                            <a class="btn btn-service btn-mobile" data-toggle="collapse" href="#collapseUrbanism" aria-expanded="true" aria-controls="collapseUrbanism">
+                            URBANISME
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseUrbanism">
+                            <div class="card-block">
+                                <a href='urbanisme/manizales.php'>AMÉNAGEMENT</a> <br> 
+                                <a href='urbanisme/bursa.php'>TRANSPORT</a> <br> 
+                                <a href='urbanisme/shanghai.php'>SCHÉMA DIRECTEUR</a> <br> 
+                                <a href='urbanisme/plaine.php'> COHÉSION TERRITORIALE</a> 
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <img src="images/socio.jpg" alt="">
-                        <p class="text-center">SOCIOCULTUREL CONCOURS
-                            <br> Conception
-                            <br> Equipement socioculturel
-                            <br> <a href='socio-culturel/espaces_sequentiels.php'>AMÉNAGEMENT</a> 
-                            <br> <a href='socio-culturel/musee.php'>REQUALIFICATION</a> 
-                            <br> <a href='socio-culturel/bibliotheque.php'>RÉHABILITATION</a>
-                        </p>
+                        <img src="images/socio.jpg" id="image-socio" alt="">
+                        <div class="container-btn-mobile">
+                            <a class="btn btn-service btn-mobile" data-toggle="collapse" href="#collapseSocio" aria-expanded="true" aria-controls="collapseSocio">SOCIO-CULTUREL
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseSocio">
+                            <div class="card-block">
+                                <a href='socio-culturel/espaces_sequentiels.php'>AMÉNAGEMENT</a> <br> 
+                                <a href='socio-culturel/musee.php'>REQUALIFICATION</a> <br> 
+                                <a href='socio-culturel/bibliotheque.php'>RÉHABILITATION</a> 
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <img src="images/logement.jpg" alt="">
-                        <p class="text-center"> LOGEMENT ET HEBERGEMENT
-                            <br> Commande privée
-                            <br> Logement collectif & individuel
-                            <br> <a href='logement/japon.php'>PROSPECTIVE</a> 
-                            <br> <a href='logement/colombia.php'>FONCTIONNALITÉ</a> 
-                        </p>
+                        <img src="images/logement.jpg" id="image-logement" alt="">
+                        <div class="container-btn-mobile">
+                            <a class="btn btn-service btn-mobile" data-toggle="collapse" href="#collapseLogement" aria-expanded="true" aria-controls="collapseLogement"> LOGEMENT ET HEBERGEMENT
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseLogement">
+                            <div class="card-block">
+                                <a href='logement/japon.php'>PROSPECTIVE</a> <br> 
+                                <a href='logement/colombia.php'>FONCTIONNALITÉ</a> 
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <img src="images/maison.jpg" alt="">
-                        <p class="text-center">MAISON INDIVIDUEL
-                            <br> Construction neuve, extrnsion et surélévation
-                            <br> La rehabilitation et renovation de logements privées
-                            <br> <a href='maison/renovation.php'>RENOVATION</a> 
-                            <br> <a href='maison/reamenagement.php'>RÉAMÉNAGEMENT</a> 
-                            <br> <a href='maison/cons_nueva.php'>NEUF</a> 
-                            <br> <a href='maison/allemagne.php'>CONSTRUCTION</a>
-                        </p>
+                        <img src="images/maison.jpg" id="image-maison" alt="">
+                        <div class="container-btn-mobile">
+                            <a class="btn btn-realisation btn-mobile" data-toggle="collapse" href="#collapseMaison" aria-expanded="true" aria-controls="collapseMaison"> MAISON INDIVIDUEL
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseMaison">
+                            <div class="card-block">
+                                <a href='maison/renovation.php'>RENOVATION</a> <br> 
+                                <a href='maison/reamenagement.php'>RÉAMÉNAGEMENT</a> <br> 
+                                <a href='maison/cons_nueva.php'>NEUF</a> <br> 
+                                <a href='maison/allemagne.php'>CONSTRUCTION</a>  
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <img src="images/sante.jpg" alt="">
-                        <p class="text-center">COLLABORATIONS
-                            <br> Domaine de la santé
-                            <br> Mission de maîtrise d'oeuvre
-                            <br> <a href='sante/michel_beauvais.php'>EHPAD/PA/CHU</a> 
-                            <br> <a href='sante/remy_butler.php'>MÉDICO-SOCIAUX</a>
-                        </p>
+                        <img src="images/sante.jpg" id="image-sante" alt="">
+                        <div class="container-btn-mobile">
+                            <a class="btn btn-realisation btn-mobile" data-toggle="collapse" href="#collapseSante" aria-expanded="true" aria-controls="collapseSante">COLLABORATIONS
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseSante">
+                            <div class="card-block">    
+                                <a href='sante/michel_beauvais.php'>EHPAD/PA/CHU</a> <br> 
+                                <a href='sante/remy_butler.php'>MÉDICO-SOCIAUX</a> 
+                            </div>
+                        </div>
                     </div>
                     <div>
-                        <img src="images/tertiaire.jpg" alt="">
-                        <p class="text-center">TERTIAIRE
-                            <br> Equipement urbaine et locaux commerciaux
-                            <br> Eco-matériaux / Economie solidair
-                            <br> <a href='tertiaire/equipement_urbain.php'>EQUIPEMENT URBAIN</a> 
-                            <br> <a href='tertiaire/boutique.php'>MENUISERIE INTÉRIEURE</a>
-                        </p>
+                        <img src="images/tertiaire.jpg" id="image-third" alt="">
+                        <div class="container-btn-mobile">
+                            <a class="btn btn-service btn-mobile" data-toggle="collapse" href="#collapseThird" aria-expanded="true" aria-controls="collapseThird">TERTIAIRE
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseThird">
+                            <div class="card-block">   
+                                <a href='tertiaire/equipement_urbain.php'>EQUIPEMENT URBAIN</a> <br> 
+                                <a href='tertiaire/boutique.php'>MENUISERIE INTÉRIEURE</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -163,55 +188,94 @@
         <div class="container-fluid hidden-sm-down py-2">
             <h4 class="text-center">Champs d'activité</h4>
             <div class="row">
-                <div class="urbanism col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" id="urban-box">
-                    <img src="images/urbanisme.jpg" alt="">
-                    <p class="text-center">URBANISME
-                        <br> Requalification et analyse urbaine
-                        <br> Déplacement multimodal
-                    </p>
+                <div class="project-entry col-12 col-md-6 col-xl-4">
+                    <a role="button" class="accordion-projects" data-toggle="collapse" href="#collapseUrbanismDesk">
+                        <img src="images/urbanisme.jpg" alt="">
+                        <p class="text-links-projects">ÉTUDE & CONSEIL <br>
+                            Urbanisme
+                        </p>
                     </a>
+                    <div class="collapse project-menu-container" id="collapseUrbanismDesk">
+                        <div class="card-block-menu">
+                            <a href='urbanisme/manizales.php'>AMÉNAGEMENT</a> <br> 
+                            <a href='urbanisme/bursa.php'>TRANSPORT</a> <br> 
+                            <a href='urbanisme/shanghai.php'>SCHÉMA DIRECTEUR</a> <br> 
+                            <a href='urbanisme/plaine.php'> COHÉSION TERRITORIALE</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="socio col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" id="socio-box">
-                    <img src="images/socio.jpg " alt=" ">
-                    <p class="text-center ">SOCIOCULTUREL CONCOURS
-                        <br> Conception
-                        <br> Equipement socio-culturel
-                    </p>
+                <div class="project-entry col-12 col-md-6 col-xl-4">
+                    <a role="button" class="accordion-projects" data-toggle="collapse" href="#collapseSocioDesk">
+                        <img src="images/socio.jpg " alt=" ">
+                        <p class="text-links-projects">ÉTUDE & CONSEIL <br> 
+                            Socio-culturel
+                        </p>
                     </a>
+                    <div class="collapse" id="collapseSocioDesk">
+                        <div class="card-block-menu">
+                            <a href='socio-culturel/espaces_sequentiels.php'>AMÉNAGEMENT</a> <br> 
+                            <a href='socio-culturel/musee.php'>REQUALIFICATION</a> <br> 
+                            <a href='socio-culturel/bibliotheque.php'>RÉHABILITATION</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="housing col-12 col-md-6 col-xl-4 ">
-                    <a role="button" class="btn popovers" data-toggle="popover" id="housing-box">
-                    <img src="images/logement.jpg" alt="">
-                    <p class="text-center"> LOGEMENT ET HEBERGEMENT
-                        <br> Commande privée
-                        <br> Logement collectif & individuel </p>
+                <div class="project-entry col-12 col-md-6 col-xl-4 ">
+                    <a role="button" class="accordion-projects" data-toggle="collapse" href="#collapseLogementDesk">
+                        <img src="images/logement.jpg" alt="">
+                        <p class="text-links-projects">ÉTUDE & CONSEIL <br>
+                         Logement et hebergement
+                        </p>
                     </a>
+                    <div class="collapse" id="collapseLogementDesk">
+                        <div class="card-block-menu">
+                            <a href='logement/japon.php'>PROSPECTIVE</a> <br> 
+                            <a href='logement/colombia.php'>FONCTIONNALITÉ</a> 
+                        </div>
+                    </div>
                 </div>
-                <div class="third col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" id="third-box">
-                    <img src="images/maison.jpg" alt="">
-                    <p class="text-center">MAISON INDIVIDUEL
-                        <br> Construction neuve, extrnsion et surélévation
-                        <br> La rehabilitation et renovation de logements privées</p>
+                <div class="project-entry col-12 col-md-6 col-xl-4">
+                    <a role="button" class="accordion-projects" data-toggle="collapse" href="#collapseMaisonDesk">
+                        <img src="images/maison.jpg" alt="">
+                        <p style="background: #8cc1e3;" class="text-links-projects">ACCOMPAGNEMENT <br> & RÉALISATION<br>
+                            Masion indivuduel
+                        </p>
                     </a>
+                    <div class="collapse" id="collapseMaisonDesk">
+                        <div class="card-block-menu">
+                            <a href='maison/renovation.php'>RENOVATION</a> <br> 
+                            <a href='maison/reamenagement.php'>RÉAMÉNAGEMENT</a> <br> 
+                            <a href='maison/cons_nueva.php'>NEUF</a> <br> 
+                            <a href='maison/allemagne.php'>CONSTRUCTION</a> 
+                        </div>
+                    </div>
                 </div>
-                <div class="health col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" id="health-box">
-                    <img src="images/sante.jpg" alt="">
-                    <p class="text-center">COLLABORATIONS
-                        <br> Domaine de la santé
-                        <br> Mission de maîtrise d'oeuvre</p>
+                <div class="project-entry col-12 col-md-6 col-xl-4">
+                    <a role="button" class="accordion-projects" data-toggle="collapse" href="#collapseSanteDesk">
+                        <img src="images/sante.jpg" alt="">
+                        <p style="background: #8cc1e3;" class="text-links-projects">ACCOMPAGNEMENT <br> & RÉALISATION<br>
+                            Domaine de la santé
+                        </p>
                     </a>
+                    <div class="collapse" id="collapseSanteDesk">
+                        <div class="card-block-menu">
+                            <a href='sante/michel_beauvais.php'>EHPAD/PA/CHU</a> <br> 
+                            <a href='sante/remy_butler.php'>MÉDICO-SOCIAUX</a> 
+                        </div>
+                    </div>
                 </div>
-                <div class="design col-12 col-md-6 col-xl-4">
-                    <a role="button" class="btn popovers" data-toggle="popover" id="design-box">
-                    <img src="images/tertiaire.jpg" alt="">
-                    <p class="text-center">TERTIAIRE
-                        <br> Equipement urbaine et locaux commerciaux
-                        <br> Eco-matériaux / Economie solidaire</p>
+                <div class="project-entry col-12 col-md-6 col-xl-4">
+                    <a role="button" class="accordion-projects" data-toggle="collapse" href="#collapseThirdDesk">
+                        <img src="images/tertiaire.jpg" alt="">
+                        <p class="text-links-projects"> ÉTUDE & CONSEIL <br>
+                            Tertiaire
+                        </p>
                     </a>
+                    <div class="collapse" id="collapseThirdDesk">
+                        <div class="card-block-menu">
+                            <a href='tertiaire/equipement_urbain.php'>EQUIPEMENT URBAIN</a> <br> 
+                            <a href='tertiaire/boutique.php'>MENUISERIE INTÉRIEURE</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
